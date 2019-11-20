@@ -1,0 +1,52 @@
+h1, h2{
+  padding-top: 20px;
+  margin-left: 30px;
+  padding-bottom: 0px;
+  color: gray;
+}
+
+h4{
+  margin-left: 30px;
+  padding-bottom: 0px;
+  color: gray;
+}
+
+body{
+  background-image: url("body-bg.gif");
+}
+
+div{
+  margin: 45px;
+  background-image: url("header-bg.png");
+  padding-bottom: 15px;
+}
+
+ol{
+  color: gray;
+  margin-left: 30px;
+  counter-reset: item;
+  padding-left: 10px;
+}
+
+li {
+    display: block
+}
+
+li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
+
+p{
+  text-align: justify;
+  color: gray;
+  margin-left: 30px;
+  padding-left: 10px;
+  margin-right: 45px;
+}
+
+img{
+  margin-left: 40px;
+  width: 30%;
+  height: 30%;
+}
